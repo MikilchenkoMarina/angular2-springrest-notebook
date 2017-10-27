@@ -28,8 +28,7 @@ export class ApiService {
     return this.http.post(API_URL + '/notes', note)
       .map(response => {
         return new Note(response.json());
-      })
-      .catch(this.handleError);
+      }).catch(this.handleError);
   }
 
   public deleteNoteById(noteId: number): Observable<null> {
