@@ -40,6 +40,7 @@ onAddNote(note) {
           this.notes = this.notes.concat(newNote);
         }
       );
+  this.ngOnInit();
   }
 
   onRemove(note) {

@@ -3,12 +3,22 @@
     {
       "id": 1,
       "title": "Read SitePoint article",
-      "text": "Test Text 1"
+      "text": "Test Text 1 DB JSON"
     },
     {
       "title": "rtrth",
       "text": "wrthwrth",
       "id": 2
+    },
+    {
+      "title": "dfhfdgh",
+      "text": "fhdfh",
+      "id": 3
+    },
+    {
+      "title": "fghdfgh",
+      "text": "fghdfgh",
+      "id": 4
     }
   ]
 }
